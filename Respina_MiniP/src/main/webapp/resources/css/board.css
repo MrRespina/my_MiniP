@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "n";
+	src: url("nanum.ttf");
+}
+
+.boardContent{
+
+	width:700px;
+	height:330px;
+	font-size:25px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: white dotted 3px;
+	
+}
+
+.board_owner{
+	
+	width:100px;
+	height:45px;
+	
+}
+
+.board_When{
+	
+	width:600px;
+	height:45px;
+	
+}
+
+.board_Text {
+	
+	width:800px;
+	height:130px;
+	font-family: "n";
+	font-size:25px;
+	resize:none;
+	background-color: rgba(255,255,255,0.2);
+	border:rgba(255,255,255,0.2);
+	border-radius: 3px;
+	
+}
+
+.ins_toBoard{
+	
+	width:400px;
+	height:130px;
+	font-family: "n";
+	font-size:25px;
+	resize:none;
+	background-color: rgba(255,255,255,0.2);
+	border:rgba(255,255,255,0.2);
+	border-radius: 3px;
+	
+}
+
+.board_comment{
+	
+	width:800px;
+	height:90px;
+	
+}
+
+.board_option{
+	
+	font-family: "n";
+	width:800px;
+	height:40px;
+	font-size:25px;
+	
+}
+
+.cmtInput{
+	
+	font-family: "n";
+	font-size:25px;
+	height:30px;
+	widht:200px;
+	text-align: right;
+	background-color:rgba(255,255,255,0.2);
+	border: black dotted 3px;
+	border-radius: 3px;
+	
+}
+
+.searchInput{
+	
+	font-family: "n";
+	font-size:30px;
+	height:40px;
+	text-align: right;
+	background-color:rgba(255,255,255,0.2);
+	border:rgba(255,255,255,0.2);
+	border-radius: 3px;
+	
+}
+
+.boardL {
+	position: absolute;
+	margin-top:150px;
+	left: 250px;
+	color: rgba(255, 255, 255);
+	font-family: "n";
+	font-size: 300px;
+	text-decoration: none;
+}
+
+.boardR {
+	position: absolute;
+	margin-top:150px;
+	right: 250px;
+	color: rgba(255, 255, 255);
+	font-family: "n";
+	font-size: 300px;
+	text-decoration: none;
+}
+
+.infoBoard{
+
+	width:500px;
+	height:340px;
+	font-size:45px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border:rgba(255,255,255,0.2);
+	border: white dotted 3px;
+	
+}
+
+.infoText {
+	
+	width:500px;
+	height:300px;
+	font-family: "n";
+	font-size:35px;
+	resize:none;
+	background-color: rgba(255,255,255,0.2);
+	border:rgba(255,255,255,0.2);
+	border-radius: 3px;
+	
+}
+
+.boardInfoInp{
+	
+	font-family: "n";
+	font-size:30px;
+	height:40px;
+	text-align: center;
+	width: 100px;
+	height: 45px;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.4);
+	color:white;
+	text-shadow: black 3px 3px 3px;
+	
+}
+
+.commentTitle{
+	
+	width:80px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	font-weight:bold;
+	color:yellow;
+	text-align: center;
+	background-color:rgba(255,255,255,0.6);
+	border: rgba(255,255,255,0.4) dashed 3px;
+	border-radius: 3px;
+	
+}
+
+.commentOwner{
+	
+	width:80px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	text-align: center;
+	background-color:rgba(255,255,255,0.6);
+	border: rgba(255,255,255,0.4) dashed 3px;
+	border-radius: 3px;
+	
+}
+
+.commentText{
+	
+	margin-left:5px;
+	width:235px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	color:white;
+	text-align: center;
+	background-color:rgba(255,255,255,0.6);
+	border: rgba(255,255,255,0.4) dashed 3px;
+	border-radius: 3px;
+	
+}
+
+.commentWhen{
+	
+	margin-left:5px;
+	width:170px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	color:white;
+	text-align: center;
+	background-color:rgba(255,255,255,0.6);
+	border: rgba(255,255,255,0.4) dashed 3px;
+	border-radius: 3px;
+	
+}
+
+.commentInfo{
+	
+	margin-left:5px;
+	width:282px;
+	height:30px;
+	font-family: "n";
+	color:white;
+	font-size:20px;
+	text-align: center;
+	background-color:rgba(255,255,255,0.6);
+	border: rgba(255,255,255,0.4) dashed 3px;
+	border-radius: 3px;
+	
+}
+
+.commentTdOwner{
+	
+	width:80px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	font-weight:bold;
+	text-align: center;
+	background-color:rgba(255,255,255,0.2);
+	border: rgba(255,255,255,0.4) dotted 3px;
+	border-radius: 3px;
+	
+}
+
+.commentTdText{
+	
+	margin-left:5px;
+	width:235px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	text-align: center;
+	background-color:rgba(255,255,255,0.2);
+	border: rgba(255,255,255,0.4) dotted 3px;
+	border-radius: 3px;
+	
+}
+
+.commentTdWhen{
+	
+	margin-left:5px;
+	width:170px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	text-align: center;
+	background-color:rgba(255,255,255,0.2);
+	border: rgba(255,255,255,0.4) dotted 3px;
+	border-radius: 3px;
+	
+}
+
+.commentTdInfo{
+	
+	margin-left:5px;
+	width:282px;
+	height:30px;
+	font-family: "n";
+	font-size:20px;
+	text-align: center;
+	background-color:rgba(255,255,255,0.2);
+	border: rgba(255,255,255,0.4) dotted 3px;
+	border-radius: 3px;
+	
+}
+
+.bOwner{
+	
+	margin-left:5px;
+	width:270px;
+	height:60px;
+	font-family: "n";
+	font-size:30px;
+	color:yellow;
+	text-align: center;
+	border: rgba(255,255,255,0.4) dotted 3px;
+	background-color:rgba(255,255,255,0.2);
+	border-radius: 3px;
+	
+}
+
+.bOwner_Title{
+	
+	margin-left:5px;
+	width:270px;
+	height:40px;
+	font-family: "n";
+	font-size:25px;
+	color:white;
+	text-align: center;
+	background-color:rgba(255,255,255,0.2);
+	border: rgba(255,255,255,0.4) dotted 3px;
+	border-radius: 3px;
+	
+}
+
+.bText{
+	
+	margin-left:5px;
+	width:670px;
+	height:60px;
+	font-family: "n";
+	font-size:30px;
+	color:yellow;
+	text-align: center;
+	border: rgba(255,255,255,0.4) dotted 3px;
+	background-color:rgba(255,255,255,0.2);
+	border-radius: 3px;
+	
+}
+
+.bText_Title{
+	
+	margin-left:5px;
+	width:670px;
+	height:40px;
+	font-family: "n";
+	font-size:25px;
+	color:white;
+	text-align: center;
+	background-color:rgba(255,255,255,0.2);
+	border: rgba(255,255,255,0.4) dotted 3px;
+	border-radius: 3px;
+	
+}
+
+
+
+.cmtUpdateInput{
+	
+	font-family: "n";
+	font-size:20px;
+	text-align: right;
+	border-radius: 3px;
+	width:150px;
+	
+}
+
+.cmtUpdateInput::placeholder{
+	
+	font-family: "n";
+	font-size:20px;
+	text-align: right;
+	
+}
+
